@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  background-color: rgb(236, 239, 235);
+  
+  margin: 0;
+  display: flex;
+  /* align-items: flex-start; */  
+
+}
+/* navbar */
+.navbar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  margin: 0px 15px 0px 15px;
+  width: 70px;
+}
+body div div{
+  padding-bottom: 20px;
+}
+body div div a{
+  text-decoration: none;
+  align-content: space-around;
+}
+body div div a:hover{
+  background: #080081;
+  color: #fff;
+  padding: 10px 10px 10px 12px;
+}
+
+
+/* fin navbar */
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+}
+
+body {
+  height: 100vh;
+  overflow-x: hidden; 
+  margin: 0px;
+}
+
+
+/* this is for covid tracker */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 50px 20px;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+}
+
+.totalcase {
+  background-color: #ff00001c;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.casestext {
+  color: #080081;
+  font-weight: 800;
+}
+
+.casesnumbers {
+  font-size: 20px;
+}
+
+.activecase {
+  background-color: #ffa50042;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+
+.recoveredcase {
+  background-color: #56ff002b;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+
+.deathcase {
+  background-color: #18b4ff21;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.todayChanges {
+  background-color: white;
+  padding: 5px;
+  font-size: 10px;
+}
+
+.statscontainer {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+/* this is for top 10 countries */
+
+.topcountries {
+  width: 100%;
+  height: auto;
+}
+
+.countries {
+  list-style: none;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0px;
+}
+
+.countryflag {
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.countrycard {
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 0px rgb(0 0 0 / 10%), 0 6px 1px rgb(0 0 0 / 5%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.countryname {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+/* this is for dropdownmenu list and stats */
+
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdowncontainer {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.casescontainer {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 50px;
+  justify-content: center;
+}
+
+.countrydata {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 2px;
+  width: 250px;
+}
+
+#selectdropdown {
+  background-color: #ffffff;
+  font-weight: 600;
+  border-radius: 5px;
+  display: flex;
+  min-width: 160px;
+  padding: 12px 16px;
+  z-index: 1;
+  margin-bottom: 25px;
+}
+
+.countryresult {
+  font-size: 45px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  opacity: 90%;
+}
+
+.countryinfo {
+  display: flex;
+  padding: 15px 20px;
+  flex-direction: column;
+  border-bottom: 1px solid #0000004a;
+  width: 100%;
+  font-weight: 600;
+  opacity: 90%;
+}
+
+
+
+.mapa-container {
+  display:flex;
+  flex-direction: column;
+  max-width: 100%;
+  height: auto;
+  margin: 93px 30px;
+}
+
+.mapa {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ajax table */
+.display{
+  font-size: 10px;  
+  color: #080081; 
+  
+}
+.titulo-tabla{
+  color: #080081;
+  
+}
+.card-body{
+  width: 110%;
+  background-color: #fff;
+  
+}
+
+.tableajax{
+  width: 65%; 
+  height: 480px;
+  margin: 40px;
+  background-color: #fff;
+  border-radius: 5px;   
+  
+}
+
+/* fin ajax table */
