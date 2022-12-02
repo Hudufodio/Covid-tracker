@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {
-
   #casescontainer {
     grid-template-columns: auto auto;
     display: grid;
@@ -23,17 +22,6 @@
   }
 }
 
-/* Medium devices (tablets, 768px and up) */
-
-/* @media (min-width: 768px) {
-  #casescontainer {
-  grid-template-columns: auto auto;
-  margin-left: 25px;
-  display: grid;
-  gap: 25px;
-  }
-} */
-
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
@@ -50,9 +38,9 @@
     flex-direction: row;
   }
   #casescontainer {
-  grid-template-columns: auto auto;
-  display: grid;
-  gap: 50px;
+    grid-template-columns: auto auto;
+    display: grid;
+    gap: 50px;
   }
   #alt-stats-container {
     display: flex;
@@ -73,16 +61,15 @@
   display: flex;
   flex-direction: column;
   background-color: whitesmoke;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0px;
 }
 
 body {
   height: 100vh;
-  overflow-x: hidden; 
+  overflow-x: hidden;
   margin: 0px;
 }
-
 
 /* this is for covid tracker */
 
@@ -136,7 +123,6 @@ body {
   padding: 0px 20px;
 }
 
-
 .recoveredcase {
   background-color: #56ff002b;
   height: 60px;
@@ -145,7 +131,6 @@ body {
   justify-content: space-between;
   padding: 0px 20px;
 }
-
 
 .deathcase {
   background-color: #18b4ff21;
@@ -209,7 +194,6 @@ body {
 
 /* this is for dropdownmenu list and stats */
 
-
 .container-2 {
   display: flex;
   flex-direction: column;
@@ -268,10 +252,8 @@ body {
   opacity: 90%;
 }
 
-
-
 .mapa-container {
-  display:flex;
+  display: flex;
   flex-direction: column;
   max-width: 100%;
   height: auto;
@@ -290,7 +272,7 @@ body {
   flex-direction: column;
 }
 
-.alt-stats{
+.alt-stats {
   display: flex;
   background-color: white;
   align-items: flex-start;
@@ -310,13 +292,12 @@ body {
 /* navbar */
 
 /* navbar */
-.navbar{
+.navbar {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   margin: 0px 10px 0px 10px;
 }
-
 
 /* fin navbar */
 main {
