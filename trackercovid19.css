@@ -1,21 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
 }
 body {
-  
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   min-height: 100vh;
   background-color: rgb(236, 239, 235);
-  
+
   margin: 0;
   display: flex;
-  /* align-items: flex-start; */  
-
+  /* align-items: flex-start; */
 }
 /* navbar */
-.navbar{
+.navbar {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,35 +21,33 @@ body {
   margin: 0px 15px 0px 15px;
   width: 70px;
 }
-body div div{
+body div div {
   padding-bottom: 20px;
 }
-body div div a{
+body div div a {
   text-decoration: none;
   align-content: space-around;
 }
-body div div a:hover{
+body div div a:hover {
   background: #080081;
   color: #fff;
   padding: 10px 10px 10px 12px;
 }
-
 
 /* fin navbar */
 .maincontainer {
   display: flex;
   flex-direction: column;
   background-color: whitesmoke;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0px;
 }
 
 body {
   height: 100vh;
-  overflow-x: hidden; 
+  overflow-x: hidden;
   margin: 0px;
 }
-
 
 /* this is for covid tracker */
 
@@ -105,7 +101,6 @@ body {
   padding: 0px 20px;
 }
 
-
 .recoveredcase {
   background-color: #56ff002b;
   height: 60px;
@@ -114,7 +109,6 @@ body {
   justify-content: space-between;
   padding: 0px 20px;
 }
-
 
 .deathcase {
   background-color: #18b4ff21;
@@ -178,7 +172,6 @@ body {
 
 /* this is for dropdownmenu list and stats */
 
-
 .container-2 {
   display: flex;
   flex-direction: column;
@@ -237,10 +230,8 @@ body {
   opacity: 90%;
 }
 
-
-
 .mapa-container {
-  display:flex;
+  display: flex;
   flex-direction: column;
   max-width: 100%;
   height: auto;
@@ -253,28 +244,24 @@ body {
 }
 
 /* ajax table */
-.display{
-  font-size: 10px;  
-  color: #080081; 
-  
-}
-.titulo-tabla{
+.display {
+  font-size: 10px;
   color: #080081;
-  
 }
-.card-body{
+.titulo-tabla {
+  color: #080081;
+}
+.card-body {
   width: 110%;
   background-color: #fff;
-  
 }
 
-.tableajax{
-  width: 65%; 
+.tableajax {
+  width: 65%;
   height: 480px;
   margin: 40px;
   background-color: #fff;
-  border-radius: 5px;   
-  
+  border-radius: 5px;
 }
 
 /* fin ajax table */
